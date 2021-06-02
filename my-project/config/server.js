@@ -1,5 +1,5 @@
 module.exports = ({ env }) => ({
-    host: env('HOST', '0.0.0.0'),
+    host: env('HOST', 'https://tawfiki-design.netlify.app/'),
     prod('')
     port: env.int('PORT', 1337),
     admin: {
